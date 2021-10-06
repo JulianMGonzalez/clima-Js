@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <title>ClimaWold</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <nav>
+        <h1 class="weather">CLIMA</h1>
+    </nav>
+    <div class="search-container">
+        <input type="text" class="search-form" id="search-form" placeholder="Bogotá">
+        <h2 id="search-name"></h2>
+        <h1 id="search-temperature-value"></h1>
+    </div>
+    <div class="container" id="containter">
+        <div class="card box-1" id="box-1">
+            <h1 id="temperature-value"></h1>
+            <h1 id="temperature-description"></h1>
+            <h5>Maxima temperatura</h5>
+            <p id="temperature-max"></p>
+        </div>
+        <div class="card box-2" id="box-2">
+            <h2 id="ubication"></h2>
+            <img id="icon-animated" src="" alt="icon-weather" height="128" width="128">
+        </div>
+        <div class="card box-3" id="box-3">
+            <h2>Velocidad del Viento</h2>
+            <h1 id="wind-speed"></h1>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #F8F9F9;
+}
+.weather{
+    text-align: center;
+    color: #2644ee;
+}
+.search-container{
+    text-align: center;
+}
+.search-form{
+    width: 30%;
+    border-radius: 8px;
+    padding: 8px 10px;
+    outline: none;
+    margin: 0;
+    border: 0.1rem solid #b3d4ff;
+    background: #fff;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    
+}
+.search-form:focus {
+    box-shadow: 0 0 0 2px rgba(39, 94, 254, 0.3);
+    border-color: #4b76f8;
+}
+.search-form:hover {
+    border-color: #275efe;
+  }
+.container{
+    height: 80vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card{
+    margin: .625rem;
+    height: 50vh;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+    text-align: center;
+    color: #fff;
+    box-shadow: 0 10px 20px #8d8484;
+    transition: transform .5s ease-out;
+}
+.card:hover{
+    transform: translate(0, -15px);
+}
+.box-1{
+    background-color: #8DBCF5;
+}
+.box-1>p{
+    margin-top: -1.5625rem;
+}
+.box-2{
+    background-color: #FF9D59;
+}
+.box-3{
+    background-color: #48CF43;
+}
