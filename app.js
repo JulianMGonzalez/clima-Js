@@ -51,8 +51,10 @@ window.addEventListener('load', () => {
                     let temp = Math.round(data.main.temp)
                     $searchName.textContent = `${data.name}, ${data.sys.country}`
                     $searchTemperatureValue.textContent = `${temp} °C`
+                }).catch(error => {
+                    console.log(error);
                 })
-        }else{
+        } else {
             $searchName.textContent = `Sin resultados :(`
             $searchTemperatureValue.textContent = ``
         }
